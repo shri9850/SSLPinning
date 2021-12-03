@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F42078872759BE9400DFE548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42078862759BE9400DFE548 /* AppDelegate.swift */; };
+		F42078892759BE9400DFE548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42078882759BE9400DFE548 /* SceneDelegate.swift */; };
+		F420788B2759BE9400DFE548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F420788A2759BE9400DFE548 /* ViewController.swift */; };
+		F420788E2759BE9400DFE548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F420788C2759BE9400DFE548 /* Main.storyboard */; };
+		F42078902759BE9500DFE548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F420788F2759BE9500DFE548 /* Assets.xcassets */; };
+		F42078932759BE9500DFE548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42078912759BE9500DFE548 /* LaunchScreen.storyboard */; };
+		F420789E2759BE9500DFE548 /* SSLPinningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F420789D2759BE9500DFE548 /* SSLPinningTests.swift */; };
+		F42078A92759BE9600DFE548 /* SSLPinningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42078A82759BE9600DFE548 /* SSLPinningUITests.swift */; };
+		F42078BA2759BED000DFE548 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42078B92759BED000DFE548 /* ServiceManager.swift */; };
+		F42078C22759C9C600DFE548 /* google.cer in Resources */ = {isa = PBXBuildFile; fileRef = F42078C12759C9C600DFE548 /* google.cer */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F420789A2759BE9500DFE548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F420787B2759BE9400DFE548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F42078822759BE9400DFE548;
+			remoteInfo = SSLPinning;
+		};
+		F42078A52759BE9600DFE548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F420787B2759BE9400DFE548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F42078822759BE9400DFE548;
+			remoteInfo = SSLPinning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F42078832759BE9400DFE548 /* SSLPinning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLPinning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42078862759BE9400DFE548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F42078882759BE9400DFE548 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F420788A2759BE9400DFE548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F420788D2759BE9400DFE548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F420788F2759BE9500DFE548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F42078922759BE9500DFE548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F42078942759BE9500DFE548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42078992759BE9500DFE548 /* SSLPinningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLPinningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F420789D2759BE9500DFE548 /* SSLPinningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLPinningTests.swift; sourceTree = "<group>"; };
+		F420789F2759BE9500DFE548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42078A42759BE9600DFE548 /* SSLPinningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLPinningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42078A82759BE9600DFE548 /* SSLPinningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLPinningUITests.swift; sourceTree = "<group>"; };
+		F42078AA2759BE9600DFE548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42078B92759BED000DFE548 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		F42078C12759C9C600DFE548 /* google.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = google.cer; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F42078802759BE9400DFE548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42078962759BE9500DFE548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42078A12759BE9600DFE548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F420787A2759BE9400DFE548 = {
+			isa = PBXGroup;
+			children = (
+				F42078852759BE9400DFE548 /* SSLPinning */,
+				F420789C2759BE9500DFE548 /* SSLPinningTests */,
+				F42078A72759BE9600DFE548 /* SSLPinningUITests */,
+				F42078842759BE9400DFE548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F42078842759BE9400DFE548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42078832759BE9400DFE548 /* SSLPinning.app */,
+				F42078992759BE9500DFE548 /* SSLPinningTests.xctest */,
+				F42078A42759BE9600DFE548 /* SSLPinningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42078852759BE9400DFE548 /* SSLPinning */ = {
+			isa = PBXGroup;
+			children = (
+				F42078C12759C9C600DFE548 /* google.cer */,
+				F42078862759BE9400DFE548 /* AppDelegate.swift */,
+				F42078882759BE9400DFE548 /* SceneDelegate.swift */,
+				F420788A2759BE9400DFE548 /* ViewController.swift */,
+				F420788C2759BE9400DFE548 /* Main.storyboard */,
+				F420788F2759BE9500DFE548 /* Assets.xcassets */,
+				F42078912759BE9500DFE548 /* LaunchScreen.storyboard */,
+				F42078942759BE9500DFE548 /* Info.plist */,
+				F42078B92759BED000DFE548 /* ServiceManager.swift */,
+			);
+			path = SSLPinning;
+			sourceTree = "<group>";
+		};
+		F420789C2759BE9500DFE548 /* SSLPinningTests */ = {
+			isa = PBXGroup;
+			children = (
+				F420789D2759BE9500DFE548 /* SSLPinningTests.swift */,
+				F420789F2759BE9500DFE548 /* Info.plist */,
+			);
+			path = SSLPinningTests;
+			sourceTree = "<group>";
+		};
+		F42078A72759BE9600DFE548 /* SSLPinningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F42078A82759BE9600DFE548 /* SSLPinningUITests.swift */,
+				F42078AA2759BE9600DFE548 /* Info.plist */,
+			);
+			path = SSLPinningUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F42078822759BE9400DFE548 /* SSLPinning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42078AD2759BE9600DFE548 /* Build configuration list for PBXNativeTarget "SSLPinning" */;
+			buildPhases = (
+				F420787F2759BE9400DFE548 /* Sources */,
+				F42078802759BE9400DFE548 /* Frameworks */,
+				F42078812759BE9400DFE548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLPinning;
+			productName = SSLPinning;
+			productReference = F42078832759BE9400DFE548 /* SSLPinning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F42078982759BE9500DFE548 /* SSLPinningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42078B02759BE9600DFE548 /* Build configuration list for PBXNativeTarget "SSLPinningTests" */;
+			buildPhases = (
+				F42078952759BE9500DFE548 /* Sources */,
+				F42078962759BE9500DFE548 /* Frameworks */,
+				F42078972759BE9500DFE548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F420789B2759BE9500DFE548 /* PBXTargetDependency */,
+			);
+			name = SSLPinningTests;
+			productName = SSLPinningTests;
+			productReference = F42078992759BE9500DFE548 /* SSLPinningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F42078A32759BE9600DFE548 /* SSLPinningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42078B32759BE9600DFE548 /* Build configuration list for PBXNativeTarget "SSLPinningUITests" */;
+			buildPhases = (
+				F42078A02759BE9600DFE548 /* Sources */,
+				F42078A12759BE9600DFE548 /* Frameworks */,
+				F42078A22759BE9600DFE548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F42078A62759BE9600DFE548 /* PBXTargetDependency */,
+			);
+			name = SSLPinningUITests;
+			productName = SSLPinningUITests;
+			productReference = F42078A42759BE9600DFE548 /* SSLPinningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F420787B2759BE9400DFE548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F42078822759BE9400DFE548 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F42078982759BE9500DFE548 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F42078822759BE9400DFE548;
+					};
+					F42078A32759BE9600DFE548 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F42078822759BE9400DFE548;
+					};
+				};
+			};
+			buildConfigurationList = F420787E2759BE9400DFE548 /* Build configuration list for PBXProject "SSLPinning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F420787A2759BE9400DFE548;
+			productRefGroup = F42078842759BE9400DFE548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42078822759BE9400DFE548 /* SSLPinning */,
+				F42078982759BE9500DFE548 /* SSLPinningTests */,
+				F42078A32759BE9600DFE548 /* SSLPinningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F42078812759BE9400DFE548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42078C22759C9C600DFE548 /* google.cer in Resources */,
+				F42078932759BE9500DFE548 /* LaunchScreen.storyboard in Resources */,
+				F42078902759BE9500DFE548 /* Assets.xcassets in Resources */,
+				F420788E2759BE9400DFE548 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42078972759BE9500DFE548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42078A22759BE9600DFE548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F420787F2759BE9400DFE548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F420788B2759BE9400DFE548 /* ViewController.swift in Sources */,
+				F42078872759BE9400DFE548 /* AppDelegate.swift in Sources */,
+				F42078892759BE9400DFE548 /* SceneDelegate.swift in Sources */,
+				F42078BA2759BED000DFE548 /* ServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42078952759BE9500DFE548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F420789E2759BE9500DFE548 /* SSLPinningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42078A02759BE9600DFE548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42078A92759BE9600DFE548 /* SSLPinningUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F420789B2759BE9500DFE548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F42078822759BE9400DFE548 /* SSLPinning */;
+			targetProxy = F420789A2759BE9500DFE548 /* PBXContainerItemProxy */;
+		};
+		F42078A62759BE9600DFE548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F42078822759BE9400DFE548 /* SSLPinning */;
+			targetProxy = F42078A52759BE9600DFE548 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F420788C2759BE9400DFE548 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F420788D2759BE9400DFE548 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F42078912759BE9500DFE548 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42078922759BE9500DFE548 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F42078AB2759BE9600DFE548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F42078AC2759BE9600DFE548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F42078AE2759BE9600DFE548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47PZ8KX48S;
+				INFOPLIST_FILE = SSLPinning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Straviso.SSLPinning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F42078AF2759BE9600DFE548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47PZ8KX48S;
+				INFOPLIST_FILE = SSLPinning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Straviso.SSLPinning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F42078B12759BE9600DFE548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47PZ8KX48S;
+				INFOPLIST_FILE = SSLPinningTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Straviso.SSLPinningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLPinning.app/SSLPinning";
+			};
+			name = Debug;
+		};
+		F42078B22759BE9600DFE548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47PZ8KX48S;
+				INFOPLIST_FILE = SSLPinningTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Straviso.SSLPinningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLPinning.app/SSLPinning";
+			};
+			name = Release;
+		};
+		F42078B42759BE9600DFE548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47PZ8KX48S;
+				INFOPLIST_FILE = SSLPinningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Straviso.SSLPinningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SSLPinning;
+			};
+			name = Debug;
+		};
+		F42078B52759BE9600DFE548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47PZ8KX48S;
+				INFOPLIST_FILE = SSLPinningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Straviso.SSLPinningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SSLPinning;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F420787E2759BE9400DFE548 /* Build configuration list for PBXProject "SSLPinning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42078AB2759BE9600DFE548 /* Debug */,
+				F42078AC2759BE9600DFE548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42078AD2759BE9600DFE548 /* Build configuration list for PBXNativeTarget "SSLPinning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42078AE2759BE9600DFE548 /* Debug */,
+				F42078AF2759BE9600DFE548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42078B02759BE9600DFE548 /* Build configuration list for PBXNativeTarget "SSLPinningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42078B12759BE9600DFE548 /* Debug */,
+				F42078B22759BE9600DFE548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42078B32759BE9600DFE548 /* Build configuration list for PBXNativeTarget "SSLPinningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42078B42759BE9600DFE548 /* Debug */,
+				F42078B52759BE9600DFE548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F420787B2759BE9400DFE548 /* Project object */;
+}
